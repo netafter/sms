@@ -1,0 +1,33 @@
+{
+    "name": "netafter/sms",
+    "description": "消息机制",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "netafter",
+            "email": "netafter@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Netafter\\Sms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Netafter\\Sms\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Netafter\\Sms\\SmsServiceProvider"
+            ]
+        }
+    }
+
+
+}
